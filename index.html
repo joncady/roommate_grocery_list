@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js"></script>
+    <title>Roommate Grocery List</title>
+</head>
+<body>
+    <header>
+        <h1>Roommate Grocery List for 520</h1>
+        <p>Add what we need here!</p>
+    </header>
+    <main>
+        <h2>Ingredient Adder</h2>
+        <p>Items can be removed by clicking on them.</p>
+        <section id="adds ingredient"></section>
+        <form>
+            <p>Type what ingredient you would like and what category it belongs</p>
+            <input type="text" id="ingred" placeholder="Enter Ingredient">
+            <select name="categories" id="selector">
+                <option value="veg-fruits">Vegetables/Fruits</option>
+                <option value="bread-noodles">Bread/Noodles</option>
+                <option value="meats">Meats</option>
+                <option value="misc">Misc. Essentials</option>
+                <option value="dairy-breakfast">Dairy/Breakfast</option>
+                <option value="snacks">Snacks</option>
+                <option value="desserts">Desserts</option>
+                <option value="drinks">Drinks</option>
+            </select>
+            <input type="text" id="person" placeholder="Requester's Name">
+            <button id="ingredient-add">Submit</button>
+        </form>
+        <!-- Add different categories -->
+        <h2>What's Needed</h2>
+        <section id="veg-fruits">
+            <h3>Vegetables and Fruits</h3>
+        </section>
+        <section id="bread-noodles">
+            <h3>Bread / Noodles</h3>
+        </section>
+        <section id="dairy-breakfast">
+            <h3>Dairy / Breakfast</h3>
+        </section>
+        <section id="meats">
+            <h3>Meats</h3>
+        </section>
+        <section id="misc">
+            <h3>Misc. Essentials</h3>
+        </section>
+        <section id="snacks">
+            <h3>Snacks</h3>
+        </section>
+        <section id="desserts">
+            <h3>Desserts</h3>
+        </section>
+        <section id="drinks">
+            <h3>Drinks</h3>
+        </section>
+        <h2>Recipe Ideas</h2>
+        <section id="ideas"></section>
+    </main>
+    <footer>
+        <p>Designed by Jonathan Cady</p>
+        <p>
+            <a href="github.com/joncady">Github</a>
+        </p>
+    </footer>
+</body>
+</html>
